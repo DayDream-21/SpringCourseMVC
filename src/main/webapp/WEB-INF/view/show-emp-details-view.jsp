@@ -14,7 +14,7 @@
     <body>
         <h2>Dear Employee, you are welcome!</h2>
         <br>
-        Your name: ${nameAttribute}
+        Your name: ${nameAttribute} ${description}
     </body>
 
 </html>
