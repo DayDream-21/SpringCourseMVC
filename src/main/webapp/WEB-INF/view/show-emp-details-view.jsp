@@ -27,9 +27,13 @@
                 <li>${lang}</li>
             </c:forEach>
         </ul>
-        <br><br>
+        <br>
 
         Your phone number: ${employee.phoneNumber}
+        <br><br>
+
+        Your email: ${employee.email}
+        <br><br>
     </body>
 
 </html>
