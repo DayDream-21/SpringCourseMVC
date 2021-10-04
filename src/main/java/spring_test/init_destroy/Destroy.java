@@ -4,7 +4,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import spring_test.CDPlayer;
 
-@Component
 public class Destroy {
     @Autowired
     CDPlayer cdPlayer;

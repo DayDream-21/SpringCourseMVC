@@ -6,7 +6,6 @@ import spring_test.my_annotations.qualifier.Genre;
 import spring_test.my_annotations.qualifier.TypesOfGenre;
 import spring_test.my_annotations.qualifier.Year;
 
-@Component
 public class CDPlayer {
     private Disk disk;
 

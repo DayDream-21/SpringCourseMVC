@@ -1,5 +1,6 @@
 package spring_test;
 
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 import spring_test.my_annotations.qualifier.Genre;
 import spring_test.my_annotations.qualifier.TypesOfGenre;
