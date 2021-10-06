@@ -1,13 +1,11 @@
 package spring_test;
 
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Description;
+import org.springframework.context.annotation.*;
 import spring_test.init_destroy.Destroy;
 import spring_test.init_destroy.Init;
 
 @Configuration
+@Profile({"test"})
 @ComponentScan(basePackages = "spring_test")
 public class MyConfig {
     @Bean(name = "cdPlayer")
@@ -28,3 +26,4 @@ public class MyConfig {
         return new Destroy();
     }
 }
+
