@@ -1,12 +1,12 @@
-package spring_test;
+package spring_test.cd_player_app;
 
 import org.springframework.context.annotation.*;
-import spring_test.init_destroy.Destroy;
-import spring_test.init_destroy.Init;
+import spring_test.cd_player_app.init_destroy.Destroy;
+import spring_test.cd_player_app.init_destroy.Init;
 
 @Configuration
 @Profile({"test"})
-@ComponentScan(basePackages = "spring_test")
+@ComponentScan(basePackages = "spring_test.cd_player_app")
 public class MyConfig {
     @Bean(name = "cdPlayer")
     @Description("Returns cdPlayer with autowired disk in it")

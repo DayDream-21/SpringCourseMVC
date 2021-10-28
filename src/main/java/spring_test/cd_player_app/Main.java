@@ -1,4 +1,4 @@
-package spring_test;
+package spring_test.cd_player_app;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

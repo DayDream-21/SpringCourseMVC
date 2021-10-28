@@ -1,4 +1,4 @@
-package spring_test.my_annotations.qualifier;
+package spring_test.cd_player_app.qualifier;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 
@@ -10,7 +10,6 @@ import java.lang.annotation.Target;
 @Target({ElementType.FIELD, ElementType.PARAMETER, ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
 @Qualifier
-public @interface Genre {
-    TypesOfGenre type();
+public @interface Year {
+    int value();
 }
-

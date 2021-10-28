@@ -1,8 +1,7 @@
-package spring_test.init_destroy;
+package spring_test.cd_player_app.init_destroy;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-import spring_test.CDPlayer;
+import spring_test.cd_player_app.CDPlayer;
 
 public class Init {
     @Autowired

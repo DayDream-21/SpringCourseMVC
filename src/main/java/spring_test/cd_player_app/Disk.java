@@ -1,10 +1,9 @@
-package spring_test;
+package spring_test.cd_player_app;
 
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
-import spring_test.my_annotations.qualifier.Genre;
-import spring_test.my_annotations.qualifier.TypesOfGenre;
-import spring_test.my_annotations.qualifier.Year;
+import spring_test.cd_player_app.qualifier.Genre;
+import spring_test.cd_player_app.qualifier.TypesOfGenre;
+import spring_test.cd_player_app.qualifier.Year;
 
 public interface Disk {
     String getDescription();
